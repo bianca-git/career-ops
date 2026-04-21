@@ -1,6 +1,6 @@
 # Mode: latex — LaTeX/Overleaf CV Export
 
-Export a tailored, ATS-optimized CV as a `.tex` file and compile it to PDF via `pdflatex`.
+Export a tailored, ATS-optimised CV as a `.tex` file and compile it to PDF via `pdflatex`.
 
 ## Pipeline
 
@@ -11,7 +11,7 @@ Export a tailored, ATS-optimized CV as a `.tex` file and compile it to PDF via `
 5. Detect JD language → CV language (EN default)
 6. Detect role archetype → adapt framing
 7. Rewrite Professional Summary injecting JD keywords (same rules as `pdf` mode — NEVER invent skills)
-8. Select top 3-4 most relevant projects for the offer
+8. Select top 3-4 most relevant projects for the posting
 9. Reorder experience bullets by JD relevance
 10. Inject keywords naturally into existing achievements
 11. Generate the `.tex` file using `templates/cv-template.tex`
@@ -126,13 +126,13 @@ All text content MUST be escaped for LaTeX before insertion:
 - Standard section headers: Education, Work Experience, Personal Projects, Technical Skills
 - UTF-8, machine-readable via `\pdfgentounicode=1`
 - Keywords distributed: first bullet of each role, skills section
-- No images, no graphics, no color in body text
+- No images, no graphics, no colour in body text
 
 ## Keyword Injection Strategy
 
 Same ethical rules as `modes/pdf.md`:
 - NEVER add skills the candidate doesn't have
-- Only reformulate existing experience using JD vocabulary
+- Only rework existing experience using JD vocabulary
 - Examples:
   - JD says "RAG pipelines" → reword "LLM workflows with retrieval" to "RAG pipeline design"
   - JD says "MLOps" → reword "observability, evals" to "MLOps and observability"

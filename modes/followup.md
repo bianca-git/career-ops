@@ -105,7 +105,7 @@ Do NOT generate another follow-up. Instead suggest:
 > "This application has had {N} follow-ups with no response. Consider:
 > - Updating status to `Discarded` if the role seems filled
 > - Trying a different contact via `/career-ops contacto`
-> - Keeping in `Applied` status but deprioritizing"
+> - Keeping in `Applied` status but deprioritising"
 
 ## Step 4 — Present Drafts
 
@@ -151,7 +151,7 @@ After the user reviews and says they've sent a follow-up, record it:
 
 ## Step 6 — Summary
 
-After showing all drafts, summarize:
+After showing all drafts, summarise:
 
 > **Follow-up Dashboard** ({date})
 > - {N} applications being tracked

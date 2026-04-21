@@ -10,7 +10,7 @@ AI-powered job search automation: pipeline tracking, offer evaluation, CV genera
 
 ## Data Contract (CRITICAL)
 
-**User Layer (NEVER auto-updated — your personalizations live here):**
+**User Layer (NEVER auto-updated — your personalisations live here):**
 - `cv.md`, `config/profile.yml`, `modes/_profile.md`, `article-digest.md`, `portals.yml`
 - `data/*`, `reports/*`, `output/*`, `interview-prep/*`
 
@@ -18,7 +18,7 @@ AI-powered job search automation: pipeline tracking, offer evaluation, CV genera
 - `modes/_shared.md`, `modes/oferta.md`, all other modes
 - `GEMINI.md`, `CLAUDE.md`, `*.mjs` scripts, `templates/*`, `batch/*`
 
-**THE RULE:** When the user asks to customize anything (archetypes, narrative, negotiation scripts, proof points, location policy, comp targets), ALWAYS write to `modes/_profile.md` or `config/profile.yml`. NEVER edit `modes/_shared.md` for user-specific content.
+**THE RULE:** When the user asks to customise anything (archetypes, narrative, negotiation scripts, proof points, location policy, comp targets), ALWAYS write to `modes/_profile.md` or `config/profile.yml`. NEVER edit `modes/_shared.md` for user-specific content.
 
 ## Update Check
 
@@ -45,14 +45,14 @@ When using [Gemini CLI](https://github.com/google-gemini/gemini-cli), the follow
 | `/career-ops-compare` | `/career-ops ofertas` | Compare and rank multiple offers |
 | `/career-ops-contact` | `/career-ops contacto` | LinkedIn outreach |
 | `/career-ops-deep` | `/career-ops deep` | Deep company research |
-| `/career-ops-pdf` | `/career-ops pdf` | Generate ATS-optimized CV |
+| `/career-ops-pdf` | `/career-ops pdf` | Generate ATS-optimised CV |
 | `/career-ops-training` | `/career-ops training` | Evaluate course/cert |
 | `/career-ops-project` | `/career-ops project` | Evaluate portfolio project |
 | `/career-ops-tracker` | `/career-ops tracker` | Application status overview |
 | `/career-ops-apply` | `/career-ops apply` | Live application assistant |
 | `/career-ops-scan` | `/career-ops scan` | Scan portals for new offers |
 | `/career-ops-batch` | `/career-ops batch` | Batch processing |
-| `/career-ops-patterns` | `/career-ops patterns` | Analyze rejection patterns |
+| `/career-ops-patterns` | `/career-ops patterns` | Analyse rejection patterns |
 | `/career-ops-followup` | `/career-ops followup` | Follow-up cadence tracker |
 
 **All commands share the same evaluation logic** in `modes/*.md`. The `modes/` files are shared between Claude Code, OpenCode, and Gemini CLI.

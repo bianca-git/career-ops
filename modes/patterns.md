@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Analyze all tracked applications to find patterns in outcomes and surface actionable insights. Identifies what's working (archetypes, remote policies, score ranges) and what's wasting time (geo-restricted roles, stack mismatches, low-score applications).
+Analyse all tracked applications to find patterns in outcomes and surface actionable insights. Identifies what's working (archetypes, remote policies, score ranges) and what's wasting time (geo-restricted roles, stack mismatches, low-score applications).
 
 ## Inputs
 
@@ -17,7 +17,7 @@ Analyze all tracked applications to find patterns in outcomes and surface action
 Before running analysis, check: does `data/applications.md` have at least 5 entries with status beyond "Evaluated" (i.e., Applied, Responded, Interview, Offer, Rejected, Discarded, SKIP)?
 
 If not, tell the user:
-> "Not enough data yet -- {N}/5 applications have progressed beyond evaluation. Keep applying and come back when you have more outcomes to analyze."
+> "Not enough data yet -- {N}/5 applications have progressed beyond evaluation. Keep applying and come back when you have more outcomes to analyse."
 
 Exit gracefully.
 
@@ -55,7 +55,7 @@ Write the report to `reports/pattern-analysis-{YYYY-MM-DD}.md`.
 ```markdown
 # Pattern Analysis -- {YYYY-MM-DD}
 
-**Applications analyzed:** {total}
+**Applications analysed:** {total}
 **Date range:** {from} to {to}
 **Outcomes:** {positive} positive, {negative} negative, {self_filtered} self-filtered, {pending} pending
 

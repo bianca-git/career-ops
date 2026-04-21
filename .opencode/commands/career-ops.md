@@ -1,5 +1,5 @@
 ---
-description: AI job search command center -- show menu or evaluate job description
+description: AI job search command centre -- show menu or evaluate job description
 ---
 
 Career-ops router. Arguments provided: "$ARGUMENTS"

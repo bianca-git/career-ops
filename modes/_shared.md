@@ -3,7 +3,7 @@
 <!-- ============================================================
      THIS FILE IS AUTO-UPDATABLE. Don't put personal data here.
      
-     Your customizations go in modes/_profile.md (never auto-updated).
+     Your customisations go in modes/_profile.md (never auto-updated).
      This file contains system rules, scoring logic, and tool config
      that improve with each career-ops release.
      ============================================================ -->
@@ -19,7 +19,7 @@
 
 **RULE: NEVER hardcode metrics from proof points.** Read them from cv.md + article-digest.md at evaluation time.
 **RULE: For article/project metrics, article-digest.md takes precedence over cv.md.**
-**RULE: Read _profile.md AFTER this file. User customizations in _profile.md override defaults here.**
+**RULE: Read _profile.md AFTER this file. User customisations in _profile.md override defaults here.**
 
 ---
 
@@ -29,7 +29,7 @@ The evaluation uses 6 blocks (A-F) with a global score of 1-5:
 
 | Dimension | What it measures |
 |-----------|-----------------|
-| Match con CV | Skills, experience, proof points alignment |
+| CV match | Skills, experience, proof points alignment |
 | North Star alignment | How well the role fits the user's target archetypes (from _profile.md) |
 | Comp | Salary vs market (5=top quartile, 1=well below) |
 | Cultural signals | Company culture, growth, stability, remote policy |
@@ -65,14 +65,14 @@ Block G assesses whether a posting is likely a real, active opening. It does NOT
 | Role-company fit | Qualitative | Low | Subjective, use only as supporting signal |
 
 **Ethical framing (MANDATORY):**
-- This helps users prioritize time on real opportunities
+- This helps users prioritise time on real opportunities
 - NEVER present findings as accusations of dishonesty
 - Present signals and let the user decide
 - Always note legitimate explanations for concerning signals
 
 ## Archetype Detection
 
-Classify every offer into one of these types (or hybrid of 2):
+Classify every posting into one of these types (or a hybrid of 2):
 
 | Archetype | Key signals in JD |
 |-----------|-------------------|
@@ -91,12 +91,12 @@ After detecting archetype, read `modes/_profile.md` for the user's specific fram
 
 1. Invent experience or metrics
 2. Modify cv.md or portfolio files
-3. Submit applications on behalf of the candidate
+3. Submit applications on the candidate's behalf
 4. Share phone number in generated messages
 5. Recommend comp below market rate
 6. Generate a PDF without reading the JD first
 7. Use corporate-speak
-8. Ignore the tracker (every evaluated offer gets registered)
+8. Ignore the tracker (every evaluated posting gets logged)
 
 ### ALWAYS
 
@@ -106,7 +106,7 @@ After detecting archetype, read `modes/_profile.md` for the user's specific fram
 2. Detect the role archetype and adapt framing per _profile.md
 3. Cite exact lines from CV when matching
 4. Use WebSearch for comp and company data
-5. Register in tracker after evaluating
+5. Log to the tracker after evaluating
 6. Generate content in the language of the JD (EN default)
 7. Be direct and actionable -- no fluff
 8. Native tech English for generated text. Short sentences, action verbs, no passive voice.
@@ -120,7 +120,7 @@ After detecting archetype, read `modes/_profile.md` for the user's specific fram
 |------|-----|
 | WebSearch | Comp research, trends, company culture, LinkedIn contacts, fallback for JDs |
 | WebFetch | Fallback for extracting JDs from static pages |
-| Playwright | Verify offers (browser_navigate + browser_snapshot). **NEVER 2+ agents with Playwright in parallel.** |
+| Playwright | Verify postings (browser_navigate + browser_snapshot). **NEVER 2+ agents with Playwright in parallel.** |
 | Read | cv.md, _profile.md, article-digest.md, cv-template.html |
 | Write | Temporary HTML for PDF, applications.md, reports .md |
 | Edit | Update tracker |
@@ -147,8 +147,8 @@ These rules apply to ALL generated text that ends up in candidate-facing documen
 - "in today's fast-paced world"
 - "demonstrated ability to" / "best practices" (name the practice)
 
-### Unicode normalization for ATS
-`generate-pdf.mjs` automatically normalizes em-dashes, smart quotes, and zero-width characters to ASCII equivalents for maximum ATS compatibility. But avoid generating them in the first place.
+### Unicode normalisation for ATS
+`generate-pdf.mjs` automatically normalises em-dashes, smart quotes, and zero-width characters to ASCII equivalents for maximum ATS compatibility. But avoid generating them in the first place.
 
 ### Vary sentence structure
 - Don't start every bullet with the same verb
