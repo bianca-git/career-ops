@@ -1,8 +1,8 @@
 ---
-description: Generate ATS-optimized CV PDF
+description: Generate ATS-optimised CV PDF
 ---
 
-Generate ATS-optimized CV using career-ops pdf mode.
+Generate ATS-optimised CV using career-ops pdf mode.
 
 Load the career-ops skill:
 ```

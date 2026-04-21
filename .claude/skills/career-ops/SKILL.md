@@ -1,6 +1,6 @@
 ---
 name: career-ops
-description: AI job search command center -- evaluate offers, generate CVs, scan portals, track applications
+description: AI job search command centre -- evaluate offers, generate CVs, scan portals, track applications
 user_invocable: true
 args: mode
 argument-hint: "[scan | deep | pdf | oferta | ofertas | apply | batch | tracker | pipeline | contacto | training | project | interview-prep | update]"
@@ -42,7 +42,7 @@ If `{{mode}}` is not a sub-command AND doesn't look like a JD, show discovery.
 Show this menu:
 
 ```
-career-ops -- Command Center
+career-ops -- Command Centre
 
 Available commands:
   /career-ops {JD}      → AUTO-PIPELINE: evaluate + report + PDF + tracker (paste text or URL)
@@ -51,14 +51,14 @@ Available commands:
   /career-ops ofertas   → Compare and rank multiple offers
   /career-ops contacto  → LinkedIn power move: find contacts + draft message
   /career-ops deep      → Deep research prompt about company
-  /career-ops pdf       → PDF only, ATS-optimized CV
+  /career-ops pdf       → PDF only, ATS-optimised CV
   /career-ops training  → Evaluate course/cert against North Star
   /career-ops project   → Evaluate portfolio project idea
   /career-ops tracker   → Application status overview
   /career-ops apply     → Live application assistant (reads form + generates answers)
   /career-ops scan      → Scan portals and discover new offers
   /career-ops batch     → Batch processing with parallel workers
-  /career-ops patterns  → Analyze rejection patterns and improve targeting
+  /career-ops patterns  → Analyse rejection patterns and improve targeting
   /career-ops followup  → Follow-up cadence tracker: flag overdue, generate drafts
 
 Inbox: add URLs to data/pipeline.md → /career-ops pipeline

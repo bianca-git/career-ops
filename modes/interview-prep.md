@@ -59,13 +59,13 @@ If round structure is unknown, state that and provide the best available intel o
 
 ## Step 4 — Likely Questions
 
-Categorize all discovered and inferred questions:
+Categorise all discovered and inferred questions:
 
 ### Technical
 Questions about system design, coding, architecture, domain knowledge.
 For each: the question, source, and what a strong answer looks like for this candidate specifically (reference CV proof points).
 
-### Behavioral
+### Behavioural
 Questions about leadership, conflict, collaboration, failure.
 For each: the question, source, and which story from `story-bank.md` maps best.
 
@@ -101,7 +101,7 @@ Based on what the company actually tests, not generic advice:
 - [ ] {topic} — why: "{asked in N/M recent Glassdoor reviews}"
 ```
 
-Prioritize by frequency and relevance to the role. Max 10 items.
+Prioritise by frequency and relevance to the role. Max 10 items.
 
 ## Step 7 — Company Signals
 
@@ -134,7 +134,7 @@ After delivering the report:
 
 ## Rules
 
-- **NEVER invent interview questions and attribute them to sources.** Inferred questions must be labeled `[inferred from JD]`.
+- **NEVER invent interview questions and attribute them to sources.** Inferred questions must be labelled `[inferred from JD]`.
 - **NEVER fabricate Glassdoor ratings or statistics.** If the data isn't there, say so.
 - **Cite everything.** Every question, every stat, every claim gets a source or an `[inferred]` tag.
 - Generate in the language of the JD (EN default).

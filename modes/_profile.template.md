@@ -3,11 +3,11 @@
 <!-- ============================================================
      THIS FILE IS YOURS. It will NEVER be auto-updated.
      
-     Customize everything here: your archetypes, narrative,
+     Customise everything here: your archetypes, narrative,
      proof points, negotiation scripts, location policy.
      
      The system reads _shared.md (updatable) first, then this
-     file (your overrides). Your customizations always win.
+     file (your overrides). Your customisations always win.
      ============================================================ -->
 
 ## Your Target Roles
@@ -17,7 +17,7 @@
      - AI Product Manager / Technical PM
      - Data Engineer / ML Engineer
      - DevOps / SRE / Platform
-     Whatever you're optimizing for. -->
+     Whatever you're optimising for. -->
 
 | Archetype | Thematic axes | What they buy |
 |-----------|---------------|---------------|
@@ -34,7 +34,7 @@
      | Platform / LLMOps | My monitoring dashboard project | article-digest.md |
      | Agentic | My chatbot with HITL escalation | cv.md section 3 | -->
 
-| If the role is... | Emphasize about you... | Proof point sources |
+| If the role is... | Emphasise about you... | Proof point sources |
 |-------------------|------------------------|---------------------|
 | Platform / LLMOps | Production systems builder, observability, evals | article-digest.md + cv.md |
 | Agentic / Automation | Multi-agent orchestration, HITL, reliability | article-digest.md + cv.md |
